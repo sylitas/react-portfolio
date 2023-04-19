@@ -26,11 +26,7 @@ export const Home = () => {
                 <h1 className="fluidz-48 mb-1x">
                   <Typewriter
                     options={{
-                      strings: [
-                        introdata.animated.first,
-                        introdata.animated.second,
-                        introdata.animated.third,
-                      ],
+                      strings: Object.values(introdata.animated),
                       autoStart: true,
                       loop: true,
                       deleteSpeed: 10,
@@ -39,7 +35,7 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio" className="text_2">
+                  <Link to="/About" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
                       My Portfolio
                       <div className="ring one"></div>
@@ -47,9 +43,17 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="/contact">
+                  <Link to="/portfolio">
                     <div id="button_h" className="ac_btn btn">
-                      Contact Me
+                      Projects
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </Link>
+                  <Link to="files/CurriculumVitae.pdf" target="_blank">
+                    <div id="button_h" className="ac_btn btn">
+                      Get My CV
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
