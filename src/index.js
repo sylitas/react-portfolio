@@ -20,7 +20,7 @@ const LoadingScene = () => {
         clearInterval(barInterval);
         setIsLoading(false);
       }
-    }, 20);
+    }, 40);
   }, []);
 
   return isLoading ? <LoadingScreen /> : <App />;

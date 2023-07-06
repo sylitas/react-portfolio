@@ -4,7 +4,7 @@ export default function LoadingScreen() {
       <div className='loading__box'>
         <div className='loading__text'>
           <div className='loading__text--border loading__width_animation'></div>
-          Loading Experience
+          Use computer for best experience
         </div>
         <div className='loading__bar'>
           <div className='loading__bar--inner'></div>

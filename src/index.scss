@@ -202,3 +202,15 @@ canvas {
   left: 20%;
   z-index: 0;
 }
+
+@media (max-width: 991.98px) {
+  canvas {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999999;
+  }
+}
