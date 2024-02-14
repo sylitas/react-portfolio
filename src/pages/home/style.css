@@ -31,10 +31,15 @@ section {
 }
 
 .intro_sec {
+  position: relative;
   height: calc(100vh - 60px);
   min-height: 700px;
   height: 100vh;
   margin-top: -60px;
+}
+
+.threeJS {
+  position: absolute;
 }
 
 @media (max-width: 991.98px) {
