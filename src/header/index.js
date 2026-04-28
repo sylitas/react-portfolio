@@ -50,7 +50,7 @@ const Headermain = () => {
                   </li>
                   <li className='menu_item'>
                     <Link onClick={handleToggle} to='/about' className='my-3'>
-                      Portfolio
+                      About
                     </Link>
                   </li>
                   <li className='menu_item'>
@@ -67,7 +67,7 @@ const Headermain = () => {
             <div className='d-flex'>
               <a href={socialprofils.facebook}>Facebook</a>
               <a href={socialprofils.github}>Github</a>
-              <a href={socialprofils.twitter}>Twitter</a>
+              <a href={socialprofils.linkedin}>LinkedIn</a>
             </div>
             <p className='copyright m-0'>copyright __ {logotext}</p>
           </div>

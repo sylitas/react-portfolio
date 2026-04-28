@@ -1,158 +1,178 @@
 const logotext = "Sylitas";
 const meta = {
-  title: "Sylitas",
+  title: "Sylitas | Nguyễn Tuấn Duy",
   description:
-    "I’m Nguyễn Tuấn Duy Software Engineer _ Full stack developer, currently working in Hà Nội, Việt Nam",
+    "Nguyễn Tuấn Duy is a Senior Fullstack Software Engineer focused on backend systems, data engineering, internal tools, and product delivery.",
 };
 
 const introdata = {
-  title: "Hi!👋🏻 Welcome to my profile",
+  title: "Hi, I'm Nguyễn Tuấn Duy",
   animated: {
-    1: "My name is Nguyễn Tuấn Duy",
-    2: "I'm a Software Engineer",
-    3: "a Cloud Developer",
-    4: "and a Photographer",
+    1: "Senior Fullstack Software Engineer",
+    2: "Backend-focused product builder",
+    3: "Data engineer for high-scale systems",
+    4: "Builder of internal tools and developer workflows",
   },
-  description: "I'm in love with JS programming and JS Framework",
+  description:
+    "I build practical software across backend, data, and product layers — from APIs and real-time services to internal tools that help teams move faster.",
   your_img_url: "images/profile.jpg",
 };
 
 const dataabout = {
-  title: "A bit about my self",
+  title: "A bit about me",
   aboutme:
-    "I’m an excellent fun and friendly person, I’m honest and punctual, I work well in a team but also on my own as I like to set myself goals that I will achieve, and I have good listening and communication skills. I have a creative mind and am always up for new challenges. I am well organized and always plan ahead to make sure I manage my time well.",
+    "I'm a backend-first fullstack engineer with experience across product delivery, platform thinking, and data-heavy systems. My work spans JavaScript and TypeScript services, React-based product development, cloud infrastructure, CI/CD, and internal tooling. I enjoy turning ambiguous product or technical requirements into clear systems, practical implementation plans, and reliable software that teams can build on.",
 };
 const worktimeline = [
   {
-    jobtitle: "Database Developer",
-    where: "FPT Information System",
-    date: "Oct 2019 - Jan 2020",
+    jobtitle: "Senior Backend Engineer + Data Engineer",
+    where: "Birdeye.so",
+    date: "Sep 2025 - Present",
   },
   {
-    jobtitle: "Fullstack Developer",
-    where: "HTC Telecom",
-    date: "Oct 2020 - May 2021",
+    jobtitle: "Senior Fullstack Software Engineer + Data Engineer",
+    where: "FPT Smart Cloud",
+    date: "Apr 2024 - Sep 2025",
   },
   {
-    jobtitle: "Backend Developer",
-    where: "SOTATEK., JSC",
-    date: "May 2021 - Jul 2021",
+    jobtitle: "Senior Backend Software Engineer",
+    where: "EMDDI / XanhSM",
+    date: "Jul 2023 - Apr 2024",
   },
   {
-    jobtitle: "Fullstack Developer",
-    where: "FPT Software",
-    date: "Jul 2021 - Present",
+    jobtitle: "Fullstack Software Engineer",
+    where: "Mor Software",
+    date: "May 2023 - Jul 2023",
+  },
+  {
+    jobtitle: "Middle Fullstack → Senior Backend, Team Lead Backend",
+    where: "FPT Software (Quadient)",
+    date: "Jul 2021 - May 2023",
+  },
+  {
+    jobtitle: "Fullstack Software Engineer & Data Analysis",
+    where: "Hanoi Telecom",
+    date: "Oct 2020 - Jul 2021",
+  },
+  {
+    jobtitle: "Internship → Fullstack Developer",
+    where: "Vietnam Academy of Science and Technology (VAST)",
+    date: "Jun 2019 - Sep 2020",
   },
 ];
 
 const skills = [
   {
-    name: "Javascript",
+    name: "JavaScript / TypeScript / Node.js",
+    value: 95,
+  },
+  {
+    name: "Backend APIs, Realtime Services, Queues",
     value: 90,
   },
   {
-    name: "NodeJS",
-    value: 90,
+    name: "ReactJS / Fullstack Product Delivery",
+    value: 82,
   },
   {
-    name: "ReactJS",
-    value: 50,
+    name: "AWS / Docker / CI-CD / Kubernetes",
+    value: 80,
   },
   {
-    name: "Amazon Web Services",
-    value: 70,
+    name: "Data Systems: MongoDB, Redis, ClickHouse, ElasticSearch",
+    value: 85,
   },
 ];
 
 const services = [
   {
-    title: "Software Engineer",
+    title: "Backend & Platform Engineering",
     description:
-      "I am a software engineer with a passion for designing and developing innovative software solutions. I have expertise in programming languages such as Java, Python, and C++, and I am comfortable working with various software development tools and frameworks. My experience includes developing software applications for web, desktop, and mobile platforms, as well as building scalable and secure database systems. I am a team player and possess excellent problem-solving skills, which allow me to work effectively in a fast-paced and collaborative environment. I am constantly learning and exploring new technologies to improve my skills and keep up with the latest industry trends.",
+      "I design and implement backend systems that are practical, observable, and ready for real product usage — including REST APIs, real-time services, message queues, background jobs, and integrations across complex business flows.",
   },
   {
-    title: "Cloud developer",
+    title: "Fullstack Product Delivery",
     description:
-      "I am an AWS cloud developer with a passion for leveraging cloud technologies to design and develop scalable and reliable solutions. I have a deep understanding of cloud computing concepts and possess extensive experience in AWS services such as EC2, S3, Lambda, CloudFormation, and CloudWatch. I am adept at deploying, managing, and automating cloud infrastructure and applications using DevOps tools like Jenkins, Git, and Docker. My experience includes designing and implementing solutions for web applications, data analytics, machine learning, and IoT. I am a problem-solver who enjoys finding innovative ways to optimize cloud resources and ensure high availability and performance. I am a team player who values collaboration and continuous learning to keep up with the fast-paced and ever-evolving cloud industry.",
+      "I work comfortably across backend and frontend to ship end-to-end features, especially when product requirements are ambiguous and need someone to turn them into technical solutions, implementation plans, and reliable delivery.",
   },
   {
-    title: "Fullstack Developer",
+    title: "Data, Tooling, and Automation",
     description:
-      "I am a JS fullstack developer with a passion for creating elegant and functional web applications. I am proficient in both front-end and back-end development, with expertise in JavaScript, HTML, CSS, Node.js, and popular JS frameworks such as React, Angular, and Vue.js. I have experience working with databases such as MongoDB, MySQL, and PostgreSQL, as well as integrating third-party APIs and services. I am a problem-solver who enjoys finding innovative solutions to complex challenges, and I am comfortable working in a fast-paced, agile development environment. My experience includes developing scalable and responsive web applications, implementing security and performance optimizations, and building RESTful APIs. I am a team player who values collaboration and continuous learning to stay up-to-date with the latest industry trends and best practices.",
+      "I build internal tools, data pipelines, and workflow automation that help teams move faster — from crawling and streaming data to AI-assisted internal tools, deployment flows, and developer productivity improvements.",
   },
 ];
 
 const dataportfolio = [
   {
-    img: "images/parallax-scrolling.png",
-    description: "Demo parallax scrolling",
-    link: "https://sylitas.github.io/Parallax-scrolling/",
-  },
-  {
     img: "images/portfolio.png",
-    description: "Source Code of this site",
+    description: "This portfolio website — source code and personal web presence.",
     link: "https://github.com/sylitas/react-portfolio",
   },
   {
+    img: "images/parallax-scrolling.png",
+    description: "Parallax scrolling demo exploring interactive front-end motion.",
+    link: "https://sylitas.github.io/Parallax-scrolling/",
+  },
+  {
     img: "images/old-resume.png",
-    description: "Source Code of my old resume",
+    description: "Previous online resume version and older portfolio iteration.",
     link: "https://sylitas.github.io/MonCV/",
   },
   {
     img: "images/AWS.png",
     description:
-      "Source code of personal project at FPT Software about NodeJS and AWS",
+      "Node.js and AWS-focused personal project built around cloud-oriented engineering work.",
     link: "https://github.com/sylitas/-FPTSoftware--Enrisk-Skill",
   },
   {
     img: "images/message-bot.png",
-    description: "Implementing a sending message bot for spamming at Instagram",
+    description: "Automation and messaging experiment for Instagram workflows.",
     link: "https://github.com/sylitas/InstagramLoopMessage",
   },
   {
     img: "images/syl-bot.png",
-    description:
-      "A discord bot can play music and youtube video following by command",
+    description: "A Discord bot project with media and command-driven interactions.",
     link: "https://github.com/sylitas/Syl",
   },
   {
     img: "images/ggs-bot.png",
     description:
-      "A discord bot can extract xlsx and csv files of Google Sheet using command",
+      "A Google Sheet and Discord-driven automation project for extracting and handling spreadsheet data.",
     link: "https://github.com/sylitas/GoogleSheet",
   },
   {
     img: "images/amis.png",
-    description: "Project AMIS",
+    description: "Internal business support project focused on data and operations workflows.",
     link: "https://github.com/sylitas/amis",
   },
   {
     img: "images/lcc.png",
-    description: "Project Lung Cancer Care",
+    description: "A healthcare project supporting radiology and lung cancer care workflows.",
     link: "https://github.com/sylitas/Lung-Cancer-Care",
   },
   {
     img: "images/parcellocker.png",
-    description: "Project logistic about parcel locker",
+    description: "Parcel locker and logistics product work for private clients.",
     link: "#privateProject",
   },
   {
     img: "images/switchmail.png",
-    description: "Project logistic about mailing",
+    description: "Mailing and logistics workflow work for private projects.",
     link: "#privateProject",
   },
   {
     img: "images/flickr.png",
     description:
-      "Project about searching all cat images at Flickr using Android Mobile",
+      "An Android project for searching and browsing image results from Flickr.",
     link: "https://github.com/sylitas/Flickr-Brower",
   },
 ];
 
 const contactConfig = {
   YOUR_EMAIL: "johnluy1999@gmail.com",
-  YOUR_FONE: "(+84)834120699",
-  description: "Feel free to contact me anytime!",
+  YOUR_FONE: "(+84) 834120699",
+  description:
+    "Feel free to reach out for product engineering, backend systems, fullstack work, or developer tooling collaboration.",
   // ? GET it on repository environment
   YOUR_SERVICE_ID: "service_01ajcn9",
   YOUR_TEMPLATE_ID: "template_27uqu1x",
