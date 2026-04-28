@@ -104,6 +104,12 @@ const services = [
 
 const dataportfolio = [
   {
+    img: "images/AWS.png",
+    description:
+      "Birdeye.so — contributed as Senior Backend Engineer + Data Engineer, building real-time multi-chain data systems, internal tools, and AI-assisted workflows for a large-scale crypto analytics platform.",
+    link: "https://birdeye.so",
+  },
+  {
     img: "images/portfolio.png",
     description: "This portfolio website — source code and personal web presence.",
     link: "https://github.com/sylitas/react-portfolio",
