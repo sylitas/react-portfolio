@@ -50,7 +50,9 @@
     opacity: 0;
     transition-delay: 1s;
     transition: 0.3s ease;
-    font-size: 20px;
+    font-size: 16px;
+    padding: 1rem;
+    overflow: hidden;
 }
 
 .po_item:hover {
@@ -68,12 +70,23 @@
     color: var(--secondary-color);
 }
 
+.po_item .content p {
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
 .po_item .content a {
     background: var(--bg-color);
     border: solid 1px var(--text-color);
     padding: 4px 8px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.95rem;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 .po_item .content a:hover {

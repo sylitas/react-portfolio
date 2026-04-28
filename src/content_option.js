@@ -103,20 +103,17 @@ const services = [
 const dataportfolio = [
   {
     img: 'images/birdeye.png',
-    description:
-      'Birdeye.so — contributed as Senior Backend Engineer + Data Engineer, building real-time multi-chain data systems, internal tools, and AI-assisted workflows for a large-scale crypto analytics platform.',
+    description: 'Birdeye.so — backend and data engineering for real-time multi-chain analytics, internal tools, and AI-assisted workflows.',
     link: 'https://birdeye.so',
   },
   {
     img: 'images/youtube-downloader.png',
-    description:
-      'YT Playlist Sync — a macOS app for downloading and managing YouTube music, with playlist sync, metadata handling, and Apple Music integration.',
+    description: 'YT Playlist Sync — a macOS app for downloading YouTube music with playlist sync and Apple Music integration.',
     link: 'https://github.com/sylitas/youtube-downloader',
   },
   {
     img: 'images/openclaw-review-solution.svg',
-    description:
-      'OpenClaw Review Solution — a local review loop tool for AI agents to render visual artifacts and collect human approval, change requests, or cancellation through an Electron UI.',
+    description: 'OpenClaw Review Solution — a local review tool for AI agents to render artifacts and collect human feedback in an Electron UI.',
     link: 'https://github.com/sylitas/openclaw-review-solution',
   },
   {
@@ -151,7 +148,7 @@ const dataportfolio = [
   },
   {
     img: 'images/ggs-bot.png',
-    description: 'A Google Sheet and Discord-driven automation project for extracting and handling spreadsheet data.',
+    description: 'A Google Sheet and Discord automation project for handling spreadsheet data.',
     link: 'https://github.com/sylitas/GoogleSheet',
   },
   {
