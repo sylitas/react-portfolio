@@ -66,6 +66,37 @@
     border-bottom: solid 2px var(--secondary-color);
 }
 
+.skill-category__title {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.7;
+    margin-bottom: 8px;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border: 1px solid var(--text-color);
+    font-size: 13px;
+    font-family: 'Raleway';
+    color: var(--text-color);
+    transition: background 0.2s, color 0.2s;
+}
+
+.skill-tag:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
+}
+
 .service-section .service-category-title {
     padding-bottom: 4px;
 }

@@ -1,25 +1,26 @@
 const logotext = 'Sylitas';
 const meta = {
-  title: 'Sylitas | Nguyễn Tuấn Duy',
-  description: 'Nguyễn Tuấn Duy is a Senior Fullstack Software Engineer focused on backend systems, data engineering, internal tools, and product delivery.',
+  title: 'Nguyễn Tuấn Duy — Backend Engineer',
+  description: 'I build backend systems that survive production. Real-time data pipelines, multi-chain analytics infrastructure, internal tooling, and security-sensitive engineering across fintech, blockchain, and logistics.',
 };
 
 const introdata = {
-  title: "Hi, I'm Nguyễn Tuấn Duy",
+  title: 'Nguyễn Tuấn Duy',
   animated: {
-    1: 'Senior Fullstack Software Engineer',
-    2: 'Backend-focused product builder',
-    3: 'Data engineer for high-scale systems',
-    4: 'Builder of internal tools and developer workflows',
+    1: 'Backend engineer for high-throughput distributed systems',
+    2: 'Builder of developer tools and AI-assisted workflows',
+    3: 'Platform thinking — from cache strategy to production debugging',
+    4: 'Security-conscious engineer with operational instinct',
   },
-  description: 'I build practical software across backend, data, and product layers — from APIs and real-time services to internal tools that help teams move faster.',
+  description:
+    'I build backend systems that survive production. My work spans real-time data pipelines, multi-chain analytics infrastructure, internal developer tooling, and security-sensitive product engineering across fintech, blockchain, and logistics domains.',
   your_img_url: 'images/profile.jpg',
 };
 
 const dataabout = {
   title: 'A bit about me',
   aboutme:
-    "I'm a backend-first fullstack engineer with experience across product delivery, platform thinking, and data-heavy systems. My work spans JavaScript and TypeScript services, React-based product development, cloud infrastructure, CI/CD, and internal tooling. I enjoy turning ambiguous product or technical requirements into clear systems, practical implementation plans, and reliable software that teams can build on.",
+    "I'm a backend-first engineer who thinks about systems the way they behave under load, not just on paper. Over 7 years I've built and operated services handling real-time data at scale — caching strategies that don't silently fail, alert pipelines that don't waste daily slots on invalid events, worker topologies that survive restarts without losing state.\n\nI've led backend teams, designed event-driven architectures with Kafka and CDC pipelines, and built internal AI tooling that teams actually use. I don't chase technology for its own sake — I pick the tool that survives the next incident.\n\nMy default mode is practical. I value systems that are observable, testable, and boringly reliable over clever ones that no one dares touch at 2AM.",
 };
 const worktimeline = [
   {
@@ -54,135 +55,153 @@ const worktimeline = [
   },
   {
     jobtitle: 'Internship → Fullstack Developer',
-    where: 'Vietnam Academy of Science and Technology (VAST)',
+    where: 'VAST',
     date: 'Jun 2019 - Sep 2020',
   },
 ];
 
-const skills = [
-  {
-    name: 'JavaScript / TypeScript / Node.js',
-    value: 95,
-  },
-  {
-    name: 'Backend APIs, Realtime Services, Queues',
-    value: 90,
-  },
-  {
-    name: 'ReactJS / Fullstack Product Delivery',
-    value: 82,
-  },
-  {
-    name: 'AWS / Docker / CI-CD / Kubernetes',
-    value: 80,
-  },
-  {
-    name: 'Data Systems: MongoDB, Redis, ClickHouse, ElasticSearch',
-    value: 85,
-  },
-];
+const skills = {
+  core: ['TypeScript', 'JavaScript', 'Node.js', 'Go', 'Python'],
+  backend: ['REST API', 'gRPC', 'WebSocket', 'Message Queues', 'Event-Driven Architecture'],
+  data: ['Kafka', 'Redis', 'Elasticsearch', 'ClickHouse', 'MongoDB', 'CDC (Debezium)'],
+  infra: ['Docker', 'Kubernetes', 'AWS', 'CI/CD', 'Nginx'],
+};
 
 const services = [
   {
     title: 'Backend & Platform Engineering',
     description:
-      'I design and implement backend systems that are practical, observable, and ready for real product usage — including REST APIs, real-time services, message queues, background jobs, and integrations across complex business flows.',
+      'I design and build backend systems for production — not just CRUD APIs. Real-time services, cache layers that invalidate correctly, message-driven pipelines, and distributed systems that handle partial failure without cascading.',
   },
   {
-    title: 'Fullstack Product Delivery',
+    title: 'Developer Tools & AI Workflows',
     description:
-      'I work comfortably across backend and frontend to ship end-to-end features, especially when product requirements are ambiguous and need someone to turn them into technical solutions, implementation plans, and reliable delivery.',
+      'I build internal tools that teams actually adopt. From custom CLI tools and bot automation to AI-assisted workflows and code analysis agents — I make developer experience a first-class concern, not an afterthought.',
   },
   {
-    title: 'Data, Tooling, and Automation',
+    title: 'Data Infrastructure & Pipelines',
     description:
-      'I build internal tools, data pipelines, and workflow automation that help teams move faster — from crawling and streaming data to AI-assisted internal tools, deployment flows, and developer productivity improvements.',
+      'I work across the data stack — streaming ingestion via Kafka and CDC, OLAP storage with ClickHouse, search and observability with Elasticsearch, and caching strategies that balance consistency, latency, and operational complexity.',
   },
 ];
 
-const dataportfolio = [
+const featuredProjects = [
   {
     img: 'images/birdeye.png',
-    description: 'Birdeye.so — backend and data engineering for real-time multi-chain analytics, internal tools, and AI-assisted workflows.',
+    description:
+      'Backend & data engineering for Birdeye — a real-time multi-chain crypto analytics platform serving millions of traders. Designed cache invalidation pipelines, cross-indicator alert operators, and AI-assisted internal workflows.',
     link: 'https://birdeye.so',
   },
   {
+    img: 'images/portfolio.png',
+    description:
+      'Hermes Agent — a personal AI engineering assistant with tool-using capabilities, configured with multi-profile architecture, custom MCP servers, and production workflow integrations.',
+    link: 'https://github.com/sylitas',
+  },
+  {
     img: 'images/youtube-downloader.png',
-    description: 'YT Playlist Sync — a macOS app for downloading YouTube music with playlist sync and Apple Music integration.',
+    description:
+      'YT Playlist Sync — a macOS desktop app for downloading YouTube music with playlist sync and Apple Music integration, built with Electron.',
     link: 'https://github.com/sylitas/youtube-downloader',
   },
   {
     img: 'images/openclaw-review-solution.svg',
-    description: 'OpenClaw Review Solution — a local review tool for AI agents to render artifacts and collect human feedback in an Electron UI.',
+    description:
+      'OpenClaw Review Solution — an Electron-based local review tool for AI agent artifacts, enabling human feedback loops in AI development workflows.',
     link: 'https://github.com/sylitas/openclaw-review-solution',
   },
   {
     img: 'images/portfolio.png',
-    description: 'This portfolio website — source code and personal web presence.',
+    description:
+      'This portfolio itself — a React SPA with Three.js visualizations, deployed via GitHub Pages on a custom domain.',
     link: 'https://github.com/sylitas/react-portfolio',
   },
-  {
-    img: 'images/parallax-scrolling.png',
-    description: 'Parallax scrolling demo exploring interactive front-end motion.',
-    link: 'https://sylitas.github.io/Parallax-scrolling/',
-  },
-  {
-    img: 'images/old-resume.png',
-    description: 'Previous online resume version and older portfolio iteration.',
-    link: 'https://sylitas.github.io/MonCV/',
-  },
-  {
-    img: 'images/AWS.png',
-    description: 'Node.js and AWS-focused personal project built around cloud-oriented engineering work.',
-    link: 'https://github.com/sylitas/-FPTSoftware--Enrisk-Skill',
-  },
-  {
-    img: 'images/message-bot.png',
-    description: 'Automation and messaging experiment for Instagram workflows.',
-    link: 'https://github.com/sylitas/InstagramLoopMessage',
-  },
-  {
-    img: 'images/syl-bot.png',
-    description: 'A Discord bot project with media and command-driven interactions.',
-    link: 'https://github.com/sylitas/Syl',
-  },
-  {
-    img: 'images/ggs-bot.png',
-    description: 'A Google Sheet and Discord automation project for handling spreadsheet data.',
-    link: 'https://github.com/sylitas/GoogleSheet',
-  },
+];
+
+const sideProjects = [
   {
     img: 'images/amis.png',
-    description: 'Internal business support project focused on data and operations workflows.',
+    description:
+      'Business support tool for internal data and operations workflows — AMIS+ integration, Google Data Studio, and Discord bot.',
     link: 'https://github.com/sylitas/amis',
   },
   {
+    img: 'images/pls-parcel-locker.jpg',
+    description:
+      'PLS-Merge / Parcel Locker — logistics system for parcel locker analytics across EU, UK, and Japan markets. Built with Node.js, Elasticsearch, RabbitMQ, and Docker for FPT Software / Quadient.',
+    link: '#privateProject',
+  },
+  {
+    img: 'images/neopost-logistics.jpg',
+    description:
+      'NeopostLab — POC and rapid prototyping for Quadient. Serverless architecture on AWS with CloudFormation, GraphQL, and SOAP integrations. Part of the Neopost R&D pipeline.',
+    link: '#privateProject',
+  },
+  {
+    img: 'images/ai-mentor.jpg',
+    description:
+      'AI Mentor — virtual assistant platform for employee upskilling at FPT Smart Cloud. Led a team of 6 backend devs, built CDC pipeline from MySQL to AI training data using Debezium, Kafka, and Go services.',
+    link: '#privateProject',
+  },
+  {
+    img: 'images/xanhsm-taxi.jpg',
+    description: 'XanhSM electric taxi — payment system backend handling prepay/postpaid, ZaloPay, Viettel Money, VnDirect, bank, Visa, and QR payment integrations.',
+    link: '#privateProject',
+  },
+  {
+    img: 'images/talent-assessment.jpg',
+    description:
+      'Talent Assessment — exam creation and evaluation system with GraphQL API, Prisma, PostgreSQL, and Apollo Server. Automated scoring, participant management, and CI/CD via Jenkins.',
+    link: '#privateProject',
+  },
+  {
+    img: 'images/old-resume.png',
+    description:
+      'Previous online resume (MonCV) — earlier portfolio iteration, now superseded by sylitas.com.',
+    link: 'https://sylitas.github.io/MonCV/',
+  },
+  {
+    img: 'images/parallax-scrolling.png',
+    description: 'Parallax scrolling demo exploring interactive front-end motion and scroll-driven animations.',
+    link: 'https://sylitas.github.io/Parallax-scrolling/',
+  },
+  {
+    img: 'images/message-bot.png',
+    description: 'Instagram auto-messaging workflow experiment.',
+    link: 'https://github.com/sylitas/InstagramLoopMessage',
+  },
+  {
+    img: 'images/ggs-bot.png',
+    description: 'Google Sheet + Discord bot — automated spreadsheet-to-messaging pipeline.',
+    link: 'https://github.com/sylitas/GoogleSheet',
+  },
+  {
+    img: 'images/syl-bot.png',
+    description: 'Syl — Discord bot with media commands and server management.',
+    link: 'https://github.com/sylitas/Syl',
+  },
+  {
     img: 'images/lcc.png',
-    description: 'A healthcare project supporting radiology and lung cancer care workflows.',
+    description:
+      'Lung Cancer Care — CT image visualization and doctor annotation tool for VAST. PHP, JWT, MariaDB.',
     link: 'https://github.com/sylitas/Lung-Cancer-Care',
   },
   {
-    img: 'images/parcellocker.png',
-    description: 'Parcel locker and logistics product work for private clients.',
-    link: '#privateProject',
-  },
-  {
-    img: 'images/switchmail.png',
-    description: 'Mailing and logistics workflow work for private projects.',
-    link: '#privateProject',
-  },
-  {
     img: 'images/flickr.png',
-    description: 'An Android project for searching and browsing image results from Flickr.',
+    description: 'Flickr Browser — Android app for browsing Flickr image results.',
     link: 'https://github.com/sylitas/Flickr-Brower',
+  },
+  {
+    img: 'images/AWS.png',
+    description: 'AWS + Node.js cloud engineering project.',
+    link: 'https://github.com/sylitas/-FPTSoftware--Enrisk-Skill',
   },
 ];
 
 const contactConfig = {
   YOUR_EMAIL: 'johnluy1999@gmail.com',
   YOUR_FONE: '(+84) 834120699',
-  description: 'Feel free to reach out for product engineering, backend systems, fullstack work, or developer tooling collaboration.',
-  // ? GET it on repository environment
+  description: 'For backend engineering, platform work, or developer tooling — reach out.',
   YOUR_SERVICE_ID: 'service_01ajcn9',
   YOUR_TEMPLATE_ID: 'template_27uqu1x',
   YOUR_USER_ID: 'ANv9uEN355wtwoLp6',
@@ -194,4 +213,16 @@ const socialprofils = {
   linkedin: 'https://www.linkedin.com/in/nguy%E1%BB%85n-tu%E1%BA%A5n-duy-697b60165/',
   instagram: 'https://www.instagram.com/sylitas/',
 };
-export { meta, dataabout, dataportfolio, worktimeline, skills, services, introdata, contactConfig, socialprofils, logotext };
+export {
+  meta,
+  dataabout,
+  featuredProjects,
+  sideProjects,
+  worktimeline,
+  skills,
+  services,
+  introdata,
+  contactConfig,
+  socialprofils,
+  logotext,
+};
